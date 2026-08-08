@@ -11,7 +11,7 @@ subtitle: >
 
 profile:
   align: right
-  image: yibo_zhou.jpg
+  image: profile.jpg
   image_circular: true
   more_info: >
     <p><i class="fa-solid fa-location-dot"></i> Beijing, China</p>
