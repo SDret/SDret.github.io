@@ -1,105 +1,109 @@
-- title: General Information
-  type: map
+- title: "General Information"
+  type: "map"
   contents:
-    - name: Full Name
-      value: Yibo Zhou
-    - name: Current Position
-      value: Ph.D. in Artificial Intelligence
-    - name: Affiliation
-      value: School of Computer Science and Engineering, Beihang University
-    - name: Location
-      value: Beijing, China
-    - name: Email
+    - name: "Full Name"
+      value: "Yibo Zhou"
+    - name: "Professional Identity"
+      value: "Researcher in Computer Vision and Trustworthy Machine Learning"
+    - name: "Highest Degree"
+      value: "Ph.D. in Artificial Intelligence"
+    - name: "Ph.D. Institution"
+      value: "School of Computer Science and Engineering, Beihang University"
+    - name: "Degree Awarded"
+      value: "June 2026"
+    - name: "Location"
+      value: "Beijing, China"
+    - name: "Email"
       value: '<a href="mailto:ybzhou@buaa.edu.cn">ybzhou@buaa.edu.cn</a>'
-    - name: Google Scholar
-      value: '<a href="https://scholar.google.com/citations?user=Ch18_eIAAAAJ" target="_blank" rel="noopener noreferrer">Scholar Profile</a>'
-    - name: ORCID
+    - name: "Google Scholar"
+      value: '<a href="https://scholar.google.com/citations?user=Ch18_eIAAAAJ" target="_blank" rel="noopener noreferrer">Google Scholar Profile</a>'
+    - name: "ORCID"
       value: '<a href="https://orcid.org/0000-0001-7964-7517" target="_blank" rel="noopener noreferrer">0000-0001-7964-7517</a>'
-    - name: GitHub
+    - name: "GitHub"
       value: '<a href="https://github.com/SDret" target="_blank" rel="noopener noreferrer">github.com/SDret</a>'
 
-- title: Research Interests
-  type: list
+- title: "Research Interests"
+  type: "list"
   contents:
-    - Computer vision and visual representation learning
-    - Trustworthy and reliable machine learning
-    - Pedestrian attribute recognition
-    - Multi-label and label-balanced learning
-    - Out-of-distribution detection
-    - Spurious correlation analysis and removal
-    - Learning from imbalanced and long-tailed data
+    - "Computer vision and visual representation learning"
+    - "Trustworthy and reliable machine learning"
+    - "Pedestrian attribute recognition"
+    - "Multi-label and label-balanced learning"
+    - "Out-of-distribution detection"
+    - "Spurious correlation analysis and removal"
+    - "Learning from imbalanced and long-tailed data"
 
-- title: Education
-  type: time_table
+- title: "Education"
+  type: "time_table"
   contents:
-  - title: Ph.D. in Artificial Intelligence
-      institution: Beihang University, Beijing, China
-      year: Sep 2022 - Jun 2026
+    - title: "Ph.D. in Artificial Intelligence"
+      institution: "Beihang University, Beijing, China"
+      year: "Sep 2022 - Jun 2026"
       description:
-        - School of Computer Science and Engineering
-        - Ph.D. degree awarded in June 2026
-        - National Scholarship, ranked 1st among 100 students
-        - Outstanding Freshman Scholarship, top 9 among 105 students
-        - First-Class University Scholarship, top 20 among 100 students
-        - Beijing Outstanding Graduate
+        - "School of Computer Science and Engineering"
+        - "Ph.D. degree awarded in June 2026"
+        - "National Scholarship, ranked 1st among 100 students"
+        - "Outstanding Freshman Scholarship, top 9 among 105 students"
+        - "First-Class University Scholarship, top 20 among 100 students"
+        - "Beijing Outstanding Graduate"
 
-    - title: M.S. in Electrical Engineering
-      institution: University of California San Diego, San Diego, California, USA
-      year: Aug 2017 - May 2019
+    - title: "M.S. in Electrical Engineering"
+      institution: "University of California San Diego, San Diego, California, USA"
+      year: "Aug 2017 - May 2019"
       description:
-        - Jacobs School of Engineering
-        - GPA of 3.83 out of 4.00
-        - Ranked within the top 15 percent of the program
+        - "Jacobs School of Engineering"
+        - "GPA: 3.83 out of 4.00"
+        - "Ranked within the top 15 percent of the program"
 
-    - title: B.S. in Materials Physics
-      institution: Lanzhou University, Lanzhou, China
-      year: Aug 2013 - Jun 2017
+    - title: "B.S. in Materials Physics"
+      institution: "Lanzhou University, Lanzhou, China"
+      year: "Aug 2013 - Jun 2017"
       description:
-        - School of Physical Science and Technology
-        - GPA rank of 2nd among 38 students
-        - First-Class University Scholarship
-        - Wang Tianmin Scholarship
-        - Selected for the Yan Jici Talent Program at the Institute of Physics, Chinese Academy of Sciences
-        - Outstanding Undergraduate Thesis
-        - Outstanding Graduate
+        - "School of Physical Science and Technology"
+        - "GPA rank: 2nd among 38 students"
+        - "First-Class University Scholarship"
+        - "Wang Tianmin Scholarship"
+        - "Selected for the Yan Jici Talent Program at the Institute of Physics, Chinese Academy of Sciences"
+        - "Outstanding Undergraduate Thesis"
+        - "Outstanding Graduate"
 
-- title: Professional Experience
-  type: time_table
+- title: "Professional Experience"
+  type: "time_table"
   contents:
-    - title: Artificial Intelligence Algorithm Engineer
-      institution: OPPO Guangdong Mobile Telecommunications Corp., Ltd., Shenzhen, China
-      year: Jul 2019 - Mar 2021
+    - title: "Artificial Intelligence Algorithm Engineer"
+      institution: "OPPO Guangdong Mobile Telecommunications Corp., Ltd., Shenzhen, China"
+      year: "Jul 2019 - Mar 2021"
       description:
-        - 101 Laboratory
-        - Imaging Algorithm Development Department
-        - Conducted research and development in artificial intelligence and imaging algorithms
+        - "101 Laboratory"
+        - "Imaging Algorithm Development Department"
+        - "Conducted research and development in artificial intelligence and imaging algorithms"
 
-- title: Selected Honors and Awards
-  type: nested_list
+- title: "Selected Honors and Awards"
+  type: "nested_list"
   contents:
-    - title: Beihang University
+    - title: "Beihang University"
       items:
-        - National Scholarship, ranked 1st among 100 students
-        - Outstanding Freshman Scholarship, top 9 among 105 students
-        - First-Class University Scholarship, top 20 among 100 students
-        - Beijing Outstanding Graduate
+        - "National Scholarship, ranked 1st among 100 students"
+        - "Outstanding Freshman Scholarship, top 9 among 105 students"
+        - "First-Class University Scholarship, top 20 among 100 students"
+        - "Beijing Outstanding Graduate"
 
-    - title: Lanzhou University
+    - title: "Lanzhou University"
       items:
-        - First-Class University Scholarship
-        - Wang Tianmin Scholarship
-        - Selected for the Yan Jici Talent Program at the Institute of Physics, Chinese Academy of Sciences
-        - Outstanding Undergraduate Thesis
-        - Outstanding Graduate
+        - "First-Class University Scholarship"
+        - "Wang Tianmin Scholarship"
+        - "Selected for the Yan Jici Talent Program at the Institute of Physics, Chinese Academy of Sciences"
+        - "Outstanding Undergraduate Thesis"
+        - "Outstanding Graduate"
 
-- title: Research Profile
-  type: map
+- title: "Research Profile"
+  type: "map"
   contents:
-    - name: Primary Field
-      value: Computer Vision and Trustworthy Machine Learning
-    - name: Application Area
-      value: Pedestrian Attribute Recognition
-    - name: Methodological Interests
-      value: Balanced learning, multi-label learning, representation learning, debiasing, and out-of-distribution detection
-    - name: Publication Venues
-      value: IEEE TPAMI, IJCV, ICML, IJCAI, and CVPR
+    - name: "Primary Field"
+      value: "Computer Vision and Trustworthy Machine Learning"
+    - name: "Application Area"
+      value: "Pedestrian Attribute Recognition"
+    - name: "Methodological Interests"
+      value: "Balanced learning, multi-label learning, representation learning, debiasing, and out-of-distribution detection"
+    - name: "Publication Venues"
+      value: "IEEE TPAMI, IJCV, ICML, IJCAI, and CVPR"
