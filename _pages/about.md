@@ -90,30 +90,6 @@ latest_posts:
   </a>
 </div>
 
-## 👋 About Me
-
-I received my **Ph.D. in Artificial Intelligence** from the
-**School of Computer Science and Engineering, Beihang University**
-in **June 2026**. My doctoral research focused on understanding and
-improving the reliability of modern machine learning systems, with
-particular emphasis on **computer vision**, **imbalanced multi-label
-learning**, **spurious correlation removal**, and
-**out-of-distribution detection**.
-
-Before beginning my doctoral studies, I worked as an
-**Artificial Intelligence Algorithm Engineer** at
-**OPPO Guangdong Mobile Telecommunications Corp., Ltd.**, where I was
-affiliated with the **101 Laboratory** and the
-**Imaging Algorithm Development Department**.
-
-I received my **M.S. in Electrical Engineering** from the
-**Jacobs School of Engineering, University of California San Diego**,
-and my **B.S. in Materials Physics** from the
-**School of Physical Science and Technology, Lanzhou University**.
-
-My research has appeared in leading computer vision and machine learning
-venues, including **IEEE TPAMI**, **IJCV**, **ICML**, **IJCAI**, and **CVPR**.
-
 ## 🎓 Academic Journey
 
 <div class="yibo-grid">
