@@ -39,7 +39,6 @@ latest_posts:
 
 <div class="yibo-hero">
   <div class="yibo-kicker">
-    COMPUTER VISION · TRUSTWORTHY AI · MACHINE LEARNING
   </div>
 
   <p>
