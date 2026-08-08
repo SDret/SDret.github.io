@@ -123,11 +123,3 @@ latest_posts:
   <p>101 Laboratory · Imaging Algorithm Development Department</p>
   <p>July 2019 – March 2021 · Shenzhen, China</p>
 </div>
-
-## 🤝 Contact
-
-I am always happy to discuss research ideas and potential academic
-collaborations related to computer vision and trustworthy machine learning.
-
-The best way to reach me is via email at
-[**ybzhou@buaa.edu.cn**](mailto:ybzhou@buaa.edu.cn).
