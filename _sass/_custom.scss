@@ -208,3 +208,479 @@
     font-size: 0.82rem;
   }
 }
+
+/* =========================================================
+   Custom CV page for Yibo Zhou
+   ========================================================= */
+
+.yibo-cv {
+  width: 100%;
+  min-width: 0;
+}
+
+.cv-header {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  align-items: flex-end;
+  margin-bottom: 1.5rem;
+  padding: 1.5rem;
+  border: 1px solid var(--global-divider-color);
+  border-left: 5px solid var(--global-theme-color);
+  border-radius: 1rem;
+  background:
+    radial-gradient(
+      circle at top right,
+      rgba(124, 58, 237, 0.14),
+      transparent 38%
+    ),
+    radial-gradient(
+      circle at bottom left,
+      rgba(37, 99, 235, 0.11),
+      transparent 35%
+    ),
+    var(--global-card-bg-color, var(--global-bg-color));
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.07);
+}
+
+.cv-kicker {
+  margin: 0 0 0.35rem;
+  color: var(--global-theme-color);
+  font-size: 0.76rem;
+  font-weight: 800;
+  letter-spacing: 0.14em;
+}
+
+.cv-name {
+  margin: 0;
+  font-size: clamp(2rem, 5vw, 3.2rem);
+  font-weight: 850;
+  line-height: 1.05;
+  letter-spacing: -0.04em;
+}
+
+.cv-position {
+  margin: 0.65rem 0 0.2rem;
+  color: var(--global-theme-color);
+  font-size: 1.08rem;
+  font-weight: 750;
+}
+
+.cv-affiliation {
+  margin: 0;
+  color: var(--global-text-color-light);
+  line-height: 1.55;
+}
+
+.cv-actions {
+  display: flex;
+  flex-shrink: 0;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+
+.cv-button {
+  display: inline-flex;
+  gap: 0.45rem;
+  align-items: center;
+  justify-content: center;
+  padding: 0.58rem 0.85rem;
+  border: 1px solid var(--global-theme-color);
+  border-radius: 999px;
+  color: var(--global-theme-color) !important;
+  font-size: 0.88rem;
+  font-weight: 700;
+  text-decoration: none !important;
+  transition:
+    transform 0.2s ease,
+    color 0.2s ease,
+    background 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.cv-button:hover {
+  transform: translateY(-2px);
+  background: var(--global-theme-color);
+  color: #ffffff !important;
+  box-shadow: 0 8px 18px rgba(37, 99, 235, 0.22);
+}
+
+.cv-button-primary {
+  background: var(--global-theme-color);
+  color: #ffffff !important;
+}
+
+.cv-contact-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.75rem;
+  margin: 1rem 0 2rem;
+}
+
+.cv-contact-item {
+  display: flex;
+  gap: 0.75rem;
+  align-items: center;
+  min-width: 0;
+  padding: 0.85rem;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 0.75rem;
+  background: var(--global-card-bg-color, var(--global-bg-color));
+  color: var(--global-text-color) !important;
+  text-decoration: none !important;
+  transition:
+    transform 0.2s ease,
+    border-color 0.2s ease;
+}
+
+a.cv-contact-item:hover {
+  transform: translateY(-2px);
+  border-color: var(--global-theme-color);
+}
+
+.cv-contact-item > i {
+  flex: 0 0 auto;
+  width: 1.25rem;
+  color: var(--global-theme-color);
+  font-size: 1.1rem;
+  text-align: center;
+}
+
+.cv-contact-item span {
+  display: flex;
+  min-width: 0;
+  flex-direction: column;
+  overflow-wrap: anywhere;
+  font-size: 0.9rem;
+  font-weight: 650;
+}
+
+.cv-contact-item small {
+  margin-bottom: 0.1rem;
+  color: var(--global-text-color-light);
+  font-size: 0.7rem;
+  font-weight: 650;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.cv-section {
+  margin: 2.3rem 0;
+}
+
+.cv-section > h2 {
+  display: flex;
+  gap: 0.65rem;
+  align-items: center;
+  margin-bottom: 1.2rem;
+  padding-bottom: 0.55rem;
+  border-bottom: 2px solid var(--global-divider-color);
+  font-size: 1.45rem;
+  font-weight: 800;
+}
+
+.cv-section > h2 i {
+  color: var(--global-theme-color);
+  font-size: 1.05rem;
+}
+
+.cv-summary {
+  padding: 1.1rem 1.25rem;
+  border-left: 4px solid var(--global-theme-color);
+  border-radius: 0 0.75rem 0.75rem 0;
+  background: var(--global-card-bg-color, var(--global-bg-color));
+  line-height: 1.8;
+}
+
+.cv-entry {
+  display: grid;
+  grid-template-columns: 145px minmax(0, 1fr);
+  gap: 1.35rem;
+  margin-bottom: 1rem;
+  padding: 1.2rem;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 0.85rem;
+  background: var(--global-card-bg-color, var(--global-bg-color));
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.045);
+}
+
+.cv-date {
+  display: flex;
+  flex-direction: column;
+  padding-right: 1rem;
+  border-right: 2px solid var(--global-divider-color);
+  color: var(--global-text-color-light);
+  font-size: 0.85rem;
+  line-height: 1.45;
+}
+
+.cv-date strong {
+  color: var(--global-theme-color);
+  font-size: 0.92rem;
+}
+
+.cv-entry-body {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+.cv-entry-body h3 {
+  margin: 0 0 0.35rem;
+  color: var(--global-text-color);
+  font-size: 1.12rem;
+  font-weight: 800;
+  line-height: 1.4;
+}
+
+.cv-institution {
+  margin: 0 0 0.25rem;
+  color: var(--global-theme-color);
+  font-weight: 700;
+  line-height: 1.55;
+}
+
+.cv-subtitle {
+  margin: 0 0 0.65rem;
+  color: var(--global-text-color-light);
+  font-size: 0.92rem;
+  font-style: italic;
+}
+
+.cv-entry-body ul {
+  margin: 0.55rem 0 0;
+  padding-left: 1.2rem;
+}
+
+.cv-entry-body li {
+  margin-bottom: 0.3rem;
+  line-height: 1.6;
+}
+
+.cv-skills-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.85rem;
+}
+
+.cv-skill-card {
+  padding: 1.1rem 1.2rem;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 0.8rem;
+  background: var(--global-card-bg-color, var(--global-bg-color));
+}
+
+.cv-skill-card h3 {
+  margin: 0 0 0.75rem;
+  color: var(--global-theme-color);
+  font-size: 1.02rem;
+  font-weight: 800;
+}
+
+.cv-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+}
+
+.cv-tags span {
+  display: inline-block;
+  padding: 0.32rem 0.62rem;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 999px;
+  font-size: 0.79rem;
+  font-weight: 650;
+  line-height: 1.4;
+}
+
+.cv-publication-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem;
+}
+
+.cv-publication {
+  display: grid;
+  grid-template-columns: 2.25rem minmax(0, 1fr);
+  gap: 0.9rem;
+  min-width: 0;
+  padding: 1.1rem;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 0.85rem;
+  background: var(--global-card-bg-color, var(--global-bg-color));
+  transition:
+    transform 0.2s ease,
+    border-color 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.cv-publication:hover {
+  transform: translateY(-2px);
+  border-color: var(--global-theme-color);
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.075);
+}
+
+.cv-publication > div:last-child {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+.cv-publication-number {
+  display: flex;
+  width: 2.05rem;
+  height: 2.05rem;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: var(--global-theme-color);
+  color: #ffffff;
+  font-size: 0.82rem;
+  font-weight: 800;
+}
+
+.cv-publication h3 {
+  margin: 0 0 0.4rem;
+  color: var(--global-text-color);
+  font-size: 1.03rem;
+  font-weight: 800;
+  line-height: 1.5;
+}
+
+.cv-authors,
+.cv-venue {
+  margin: 0.25rem 0;
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+.cv-venue {
+  color: var(--global-text-color-light);
+}
+
+.cv-publication-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  margin-top: 0.6rem;
+}
+
+.cv-publication-links a {
+  display: inline-flex;
+  gap: 0.3rem;
+  align-items: center;
+  padding: 0.25rem 0.55rem;
+  border: 1px solid var(--global-theme-color);
+  border-radius: 999px;
+  color: var(--global-theme-color) !important;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-decoration: none !important;
+}
+
+.cv-publication-links a:hover {
+  background: var(--global-theme-color);
+  color: #ffffff !important;
+}
+
+.cv-awards-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.75rem;
+}
+
+.cv-award {
+  display: flex;
+  gap: 0.75rem;
+  align-items: flex-start;
+  min-width: 0;
+  padding: 0.9rem;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 0.75rem;
+  background: var(--global-card-bg-color, var(--global-bg-color));
+}
+
+.cv-award > i {
+  flex: 0 0 auto;
+  margin-top: 0.2rem;
+  color: var(--global-theme-color);
+}
+
+.cv-award div {
+  display: flex;
+  min-width: 0;
+  flex-direction: column;
+}
+
+.cv-award strong {
+  line-height: 1.45;
+}
+
+.cv-award span {
+  margin-top: 0.15rem;
+  color: var(--global-text-color-light);
+  font-size: 0.83rem;
+  line-height: 1.45;
+}
+
+@media (max-width: 800px) {
+  .cv-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .cv-contact-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .cv-awards-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 576px) {
+  .cv-header {
+    padding: 1.15rem;
+  }
+
+  .cv-actions {
+    width: 100%;
+  }
+
+  .cv-button {
+    flex: 1 1 auto;
+  }
+
+  .cv-contact-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .cv-entry {
+    grid-template-columns: 1fr;
+    gap: 0.75rem;
+    padding: 1rem;
+  }
+
+  .cv-date {
+    flex-direction: row;
+    gap: 0.35rem;
+    padding-right: 0;
+    padding-bottom: 0.55rem;
+    border-right: 0;
+    border-bottom: 1px solid var(--global-divider-color);
+  }
+
+  .cv-date strong::after {
+    content: " –";
+  }
+
+  .cv-publication {
+    grid-template-columns: 1.9rem minmax(0, 1fr);
+    gap: 0.65rem;
+    padding: 0.9rem;
+  }
+
+  .cv-publication-number {
+    width: 1.75rem;
+    height: 1.75rem;
+    font-size: 0.72rem;
+  }
+}
