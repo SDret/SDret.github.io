@@ -135,48 +135,7 @@ nav_order: 3
     </p>
   </section>
 
-  <section class="cv-section">
-    <h2>
-      <i class="fa-solid fa-microscope"></i>
-      Research Interests
-    </h2>
 
-    <div class="cv-skills-grid">
-
-      <div class="cv-skill-card">
-        <h3>Computer Vision</h3>
-        <div class="cv-tags">
-          <span>Visual Representation Learning</span>
-          <span>Pedestrian Attribute Recognition</span>
-          <span>Multi-label Visual Recognition</span>
-          <span>Intelligent Imaging</span>
-        </div>
-      </div>
-
-      <div class="cv-skill-card">
-        <h3>Trustworthy Machine Learning</h3>
-        <div class="cv-tags">
-          <span>Out-of-Distribution Detection</span>
-          <span>Spurious Correlation Analysis</span>
-          <span>Spurious Correlation Removal</span>
-          <span>Robust Machine Learning</span>
-          <span>Distribution Shift</span>
-        </div>
-      </div>
-
-      <div class="cv-skill-card">
-        <h3>Balanced Representation Learning</h3>
-        <div class="cv-tags">
-          <span>Label-Balanced Learning</span>
-          <span>Imbalanced Data Learning</span>
-          <span>Long-Tailed Learning</span>
-          <span>Feature Re-Sampling</span>
-          <span>Multi-label Learning</span>
-        </div>
-      </div>
-
-    </div>
-  </section>
 
   <section class="cv-section">
     <h2>
@@ -591,97 +550,6 @@ nav_order: 3
           </div>
         </div>
       </article>
-
-    </div>
-  </section>
-
-  <section class="cv-section">
-    <h2>
-      <i class="fa-solid fa-award"></i>
-      Selected Honors &amp; Awards
-    </h2>
-
-    <div class="cv-awards-grid">
-
-      <div class="cv-award">
-        <i class="fa-solid fa-trophy"></i>
-        <div>
-          <strong>National Scholarship</strong>
-          <span>
-            Beihang University · Ranked 1st among 100 students
-          </span>
-        </div>
-      </div>
-
-      <div class="cv-award">
-        <i class="fa-solid fa-medal"></i>
-        <div>
-          <strong>Beijing Outstanding Graduate</strong>
-          <span>Beijing, China</span>
-        </div>
-      </div>
-
-      <div class="cv-award">
-        <i class="fa-solid fa-star"></i>
-        <div>
-          <strong>Outstanding Freshman Scholarship</strong>
-          <span>
-            Beihang University · Top 9 among 105 students
-          </span>
-        </div>
-      </div>
-
-      <div class="cv-award">
-        <i class="fa-solid fa-award"></i>
-        <div>
-          <strong>First-Class University Scholarship</strong>
-          <span>
-            Beihang University · Top 20 among 100 students
-          </span>
-        </div>
-      </div>
-
-      <div class="cv-award">
-        <i class="fa-solid fa-award"></i>
-        <div>
-          <strong>First-Class University Scholarship</strong>
-          <span>Lanzhou University</span>
-        </div>
-      </div>
-
-      <div class="cv-award">
-        <i class="fa-solid fa-star"></i>
-        <div>
-          <strong>Wang Tianmin Scholarship</strong>
-          <span>Lanzhou University</span>
-        </div>
-      </div>
-
-      <div class="cv-award">
-        <i class="fa-solid fa-flask"></i>
-        <div>
-          <strong>Yan Jici Talent Program</strong>
-          <span>
-            Institute of Physics, Chinese Academy of Sciences
-          </span>
-        </div>
-      </div>
-
-      <div class="cv-award">
-        <i class="fa-solid fa-file-lines"></i>
-        <div>
-          <strong>Outstanding Undergraduate Thesis</strong>
-          <span>Lanzhou University</span>
-        </div>
-      </div>
-
-      <div class="cv-award">
-        <i class="fa-solid fa-graduation-cap"></i>
-        <div>
-          <strong>Outstanding Graduate</strong>
-          <span>Lanzhou University</span>
-        </div>
-      </div>
 
     </div>
   </section>
