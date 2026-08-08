@@ -1,11 +1,569 @@
 ---
-layout: cv
+layout: page
 permalink: /cv/
 title: cv
-description: Academic background, research interests, professional experience, publications, honors, and awards of Yibo Zhou.
+description:
 nav: true
 nav_order: 3
-cv_pdf: Yibo_Zhou_CV.pdf
-toc:
-  sidebar: left
 ---
+
+<div class="yibo-cv">
+
+  <header class="cv-header">
+    <div>
+      <p class="cv-kicker">CURRICULUM VITAE</p>
+      <h1 class="cv-name">Yibo Zhou</h1>
+      <p class="cv-position">
+        Ph.D. Candidate in Artificial Intelligence
+      </p>
+      <p class="cv-affiliation">
+        School of Computer Science and Engineering · Beihang University
+      </p>
+    </div>
+
+    <div class="cv-actions">
+      <a
+        class="cv-button cv-button-primary"
+        href="{{ '/assets/pdf/Yibo_Zhou_CV.pdf' | relative_url }}"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <i class="fa-solid fa-eye"></i>
+        View PDF
+      </a>
+
+      <a
+        class="cv-button"
+        href="{{ '/assets/pdf/Yibo_Zhou_CV.pdf' | relative_url }}"
+        download="Yibo_Zhou_CV.pdf"
+      >
+        <i class="fa-solid fa-download"></i>
+        Download PDF
+      </a>
+    </div>
+  </header>
+
+  <div class="cv-contact-grid">
+    <a class="cv-contact-item" href="mailto:ybzhou@buaa.edu.cn">
+      <i class="fa-solid fa-envelope"></i>
+      <span>
+        <small>Email</small>
+        ybzhou@buaa.edu.cn
+      </span>
+    </a>
+
+    <a class="cv-contact-item" href="tel:+8618419229643">
+      <i class="fa-solid fa-phone"></i>
+      <span>
+        <small>Phone</small>
+        (+86) 184 1922 9643
+      </span>
+    </a>
+
+    <div class="cv-contact-item">
+      <i class="fa-solid fa-location-dot"></i>
+      <span>
+        <small>Location</small>
+        Beijing, China
+      </span>
+    </div>
+
+    <a
+      class="cv-contact-item"
+      href="https://scholar.google.com/citations?user=Ch18_eIAAAAJ"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <i class="ai ai-google-scholar"></i>
+      <span>
+        <small>Academic Profile</small>
+        Google Scholar
+      </span>
+    </a>
+
+    <a
+      class="cv-contact-item"
+      href="https://orcid.org/0000-0001-7964-7517"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <i class="ai ai-orcid"></i>
+      <span>
+        <small>ORCID</small>
+        0000-0001-7964-7517
+      </span>
+    </a>
+
+    <a
+      class="cv-contact-item"
+      href="https://github.com/SDret"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <i class="fa-brands fa-github"></i>
+      <span>
+        <small>GitHub</small>
+        SDret
+      </span>
+    </a>
+  </div>
+
+  <section class="cv-section">
+    <h2>
+      <i class="fa-solid fa-user"></i>
+      Profile
+    </h2>
+
+    <p class="cv-summary">
+      I am a Ph.D. candidate in <strong>Artificial Intelligence</strong> at
+      the <strong>School of Computer Science and Engineering, Beihang University</strong>.
+      My research focuses on <strong>computer vision</strong> and
+      <strong>trustworthy machine learning</strong>, with particular interests
+      in pedestrian attribute recognition, balanced multi-label learning,
+      out-of-distribution detection, and spurious correlation analysis.
+      My research has appeared in leading computer vision and machine learning
+      venues, including <strong>IEEE TPAMI</strong>, <strong>IJCV</strong>,
+      <strong>ICML</strong>, <strong>IJCAI</strong>, and <strong>CVPR</strong>.
+    </p>
+  </section>
+
+  <section class="cv-section">
+    <h2>
+      <i class="fa-solid fa-graduation-cap"></i>
+      Education
+    </h2>
+
+    <article class="cv-entry">
+      <div class="cv-date">
+        <strong>Sep 2022</strong>
+        <span>Jun 2026</span>
+      </div>
+
+      <div class="cv-entry-body">
+        <h3>Ph.D. in Artificial Intelligence</h3>
+        <p class="cv-institution">
+          Beihang University · Beijing, China
+        </p>
+        <p class="cv-subtitle">
+          School of Computer Science and Engineering
+        </p>
+        <ul>
+          <li>Expected graduation: June 2026</li>
+          <li><strong>National Scholarship</strong>, ranked 1st among 100 students</li>
+          <li><strong>Outstanding Freshman Scholarship</strong>, top 9 among 105 students</li>
+          <li><strong>First-Class University Scholarship</strong>, top 20 among 100 students</li>
+          <li><strong>Beijing Outstanding Graduate</strong></li>
+        </ul>
+      </div>
+    </article>
+
+    <article class="cv-entry">
+      <div class="cv-date">
+        <strong>Aug 2017</strong>
+        <span>May 2019</span>
+      </div>
+
+      <div class="cv-entry-body">
+        <h3>M.S. in Electrical Engineering</h3>
+        <p class="cv-institution">
+          University of California San Diego · San Diego, California, USA
+        </p>
+        <p class="cv-subtitle">
+          Jacobs School of Engineering
+        </p>
+        <ul>
+          <li>GPA: <strong>3.83 / 4.00</strong></li>
+          <li>Ranked within the <strong>top 15%</strong> of the program</li>
+        </ul>
+      </div>
+    </article>
+
+    <article class="cv-entry">
+      <div class="cv-date">
+        <strong>Aug 2013</strong>
+        <span>Jun 2017</span>
+      </div>
+
+      <div class="cv-entry-body">
+        <h3>B.S. in Materials Physics</h3>
+        <p class="cv-institution">
+          Lanzhou University · Lanzhou, China
+        </p>
+        <p class="cv-subtitle">
+          School of Physical Science and Technology
+        </p>
+        <ul>
+          <li>Academic ranking: <strong>2nd among 38 students</strong></li>
+          <li>First-Class University Scholarship</li>
+          <li>Wang Tianmin Scholarship</li>
+          <li>
+            Selected for the Yan Jici Talent Program at the Institute of
+            Physics, Chinese Academy of Sciences
+          </li>
+          <li>Outstanding Undergraduate Thesis</li>
+          <li>Outstanding Graduate</li>
+        </ul>
+      </div>
+    </article>
+  </section>
+
+  <section class="cv-section">
+    <h2>
+      <i class="fa-solid fa-briefcase"></i>
+      Professional Experience
+    </h2>
+
+    <article class="cv-entry">
+      <div class="cv-date">
+        <strong>Jul 2019</strong>
+        <span>Mar 2021</span>
+      </div>
+
+      <div class="cv-entry-body">
+        <h3>Artificial Intelligence Algorithm Engineer</h3>
+        <p class="cv-institution">
+          OPPO Guangdong Mobile Telecommunications Corp., Ltd. · Shenzhen, China
+        </p>
+        <p class="cv-subtitle">
+          101 Laboratory · Imaging Algorithm Development Department
+        </p>
+        <ul>
+          <li>
+            Conducted research and development in artificial intelligence
+            and intelligent imaging algorithms.
+          </li>
+          <li>
+            Developed and investigated computer vision algorithms for
+            practical imaging applications.
+          </li>
+          <li>
+            Collaborated with research and engineering teams on algorithm
+            development and implementation.
+          </li>
+        </ul>
+      </div>
+    </article>
+  </section>
+
+  <section class="cv-section">
+    <h2>
+      <i class="fa-solid fa-code-branch"></i>
+      Skills &amp; Research Expertise
+    </h2>
+
+    <div class="cv-skills-grid">
+      <div class="cv-skill-card">
+        <h3>Computer Vision</h3>
+        <div class="cv-tags">
+          <span>Visual Representation Learning</span>
+          <span>Pedestrian Attribute Recognition</span>
+          <span>Multi-label Visual Recognition</span>
+          <span>Intelligent Imaging</span>
+        </div>
+      </div>
+
+      <div class="cv-skill-card">
+        <h3>Trustworthy Machine Learning</h3>
+        <div class="cv-tags">
+          <span>Out-of-Distribution Detection</span>
+          <span>Spurious Correlation Analysis</span>
+          <span>Spurious Correlation Removal</span>
+          <span>Robust Machine Learning</span>
+          <span>Distribution Shift</span>
+        </div>
+      </div>
+
+      <div class="cv-skill-card">
+        <h3>Balanced Representation Learning</h3>
+        <div class="cv-tags">
+          <span>Label-Balanced Learning</span>
+          <span>Imbalanced Data Learning</span>
+          <span>Long-Tailed Learning</span>
+          <span>Feature Re-Sampling</span>
+          <span>Multi-label Learning</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cv-section">
+    <h2>
+      <i class="fa-solid fa-book-open"></i>
+      Publications
+    </h2>
+
+    <div class="cv-publication-list">
+      <article class="cv-publication">
+        <div class="cv-publication-number">1</div>
+        <div>
+          <h3>Is Spurious Correlation Removal Always Learnable?</h3>
+          <p class="cv-authors">
+            <strong>Yibo Zhou</strong>, Bo Li, Hai-Miao Hu, Hanzi Wang,
+            Xiaokang Zhang, and Ruifan Zhang
+          </p>
+          <p class="cv-venue">
+            <strong>arXiv</strong>, 2026
+          </p>
+          <div class="cv-publication-links">
+            <a
+              href="https://arxiv.org/abs/2606.12930"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="fa-solid fa-link"></i> Paper
+            </a>
+            <a
+              href="https://doi.org/10.48550/arXiv.2606.12930"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              DOI
+            </a>
+          </div>
+        </div>
+      </article>
+
+      <article class="cv-publication">
+        <div class="cv-publication-number">2</div>
+        <div>
+          <h3>
+            Heterogeneous Feature Re-Sampling for Balanced Pedestrian
+            Attribute Recognition
+          </h3>
+          <p class="cv-authors">
+            <strong>Yibo Zhou</strong>, Bo Li, Hai-Miao Hu, Xiaokang Zhang,
+            Dongping Zhang, and Hanzi Wang
+          </p>
+          <p class="cv-venue">
+            <strong>IEEE Transactions on Pattern Analysis and Machine Intelligence</strong>,
+            47(4): 2706–2722, 2025
+          </p>
+          <div class="cv-publication-links">
+            <a
+              href="https://doi.org/10.1109/TPAMI.2025.3526930"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="fa-solid fa-link"></i> Paper
+            </a>
+            <a
+              href="https://doi.org/10.1109/TPAMI.2025.3526930"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              DOI
+            </a>
+          </div>
+        </div>
+      </article>
+
+      <article class="cv-publication">
+        <div class="cv-publication-number">3</div>
+        <div>
+          <h3>
+            A Solution to Co-occurrence Bias in Pedestrian Attribute
+            Recognition: Theory, Algorithms, and Improvements
+          </h3>
+          <p class="cv-authors">
+            <strong>Yibo Zhou</strong>, Hai-Miao Hu, Jinzuo Yu, Haotian Wu,
+            Shiliang Pu, and Hanzi Wang
+          </p>
+          <p class="cv-venue">
+            <strong>International Journal of Computer Vision</strong>,
+            133(7): 4712–4726, 2025
+          </p>
+          <div class="cv-publication-links">
+            <a
+              href="https://doi.org/10.1007/s11263-025-02405-7"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="fa-solid fa-link"></i> Paper
+            </a>
+            <a
+              href="https://doi.org/10.1007/s11263-025-02405-7"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              DOI
+            </a>
+          </div>
+        </div>
+      </article>
+
+      <article class="cv-publication">
+        <div class="cv-publication-number">4</div>
+        <div>
+          <h3>
+            Pedestrian Attribute Recognition as Label-Balanced Multi-Label Learning
+          </h3>
+          <p class="cv-authors">
+            <strong>Yibo Zhou</strong>, Hai-Miao Hu, Yirong Xiang,
+            Xiaokang Zhang, and Haotian Wu
+          </p>
+          <p class="cv-venue">
+            <strong>International Conference on Machine Learning (ICML)</strong>,
+            2024, pp. 61964–61978
+          </p>
+          <div class="cv-publication-links">
+            <a
+              href="https://proceedings.mlr.press/v235/zhou24j.html"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="fa-solid fa-link"></i> Paper
+            </a>
+            <a
+              href="https://raw.githubusercontent.com/mlresearch/v235/main/assets/zhou24j/zhou24j.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              PDF
+            </a>
+          </div>
+        </div>
+      </article>
+
+      <article class="cv-publication">
+        <div class="cv-publication-number">5</div>
+        <div>
+          <h3>
+            A Solution to Co-occurrence Bias: Attributes Disentanglement via
+            Mutual Information Minimization for Pedestrian Attribute Recognition
+          </h3>
+          <p class="cv-authors">
+            <strong>Yibo Zhou</strong>, Hai-Miao Hu, Jinzuo Yu, Zhenbo Xu,
+            Weiqing Lu, and Yuran Cao
+          </p>
+          <p class="cv-venue">
+            <strong>International Joint Conference on Artificial Intelligence (IJCAI)</strong>,
+            Main Track, 2023, pp. 1831–1839
+          </p>
+          <div class="cv-publication-links">
+            <a
+              href="https://doi.org/10.24963/ijcai.2023/203"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="fa-solid fa-link"></i> Paper
+            </a>
+            <a
+              href="https://doi.org/10.24963/ijcai.2023/203"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              DOI
+            </a>
+          </div>
+        </div>
+      </article>
+
+      <article class="cv-publication">
+        <div class="cv-publication-number">6</div>
+        <div>
+          <h3>
+            Rethinking Reconstruction Autoencoder-Based
+            Out-of-Distribution Detection
+          </h3>
+          <p class="cv-authors">
+            <strong>Yibo Zhou</strong>
+          </p>
+          <p class="cv-venue">
+            <strong>IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)</strong>,
+            2022, pp. 7379–7387
+          </p>
+          <div class="cv-publication-links">
+            <a
+              href="https://doi.org/10.1109/CVPR52688.2022.00723"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="fa-solid fa-link"></i> Paper
+            </a>
+            <a
+              href="https://doi.org/10.1109/CVPR52688.2022.00723"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              DOI
+            </a>
+          </div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section class="cv-section">
+    <h2>
+      <i class="fa-solid fa-award"></i>
+      Selected Honors &amp; Awards
+    </h2>
+
+    <div class="cv-awards-grid">
+      <div class="cv-award">
+        <i class="fa-solid fa-trophy"></i>
+        <div>
+          <strong>National Scholarship</strong>
+          <span>Beihang University · Ranked 1st among 100 students</span>
+        </div>
+      </div>
+
+      <div class="cv-award">
+        <i class="fa-solid fa-medal"></i>
+        <div>
+          <strong>Beijing Outstanding Graduate</strong>
+          <span>Beijing, China</span>
+        </div>
+      </div>
+
+      <div class="cv-award">
+        <i class="fa-solid fa-star"></i>
+        <div>
+          <strong>Outstanding Freshman Scholarship</strong>
+          <span>Beihang University · Top 9 among 105 students</span>
+        </div>
+      </div>
+
+      <div class="cv-award">
+        <i class="fa-solid fa-award"></i>
+        <div>
+          <strong>First-Class University Scholarship</strong>
+          <span>Beihang University · Top 20 among 100 students</span>
+        </div>
+      </div>
+
+      <div class="cv-award">
+        <i class="fa-solid fa-star"></i>
+        <div>
+          <strong>Wang Tianmin Scholarship</strong>
+          <span>Lanzhou University</span>
+        </div>
+      </div>
+
+      <div class="cv-award">
+        <i class="fa-solid fa-flask"></i>
+        <div>
+          <strong>Yan Jici Talent Program</strong>
+          <span>Institute of Physics, Chinese Academy of Sciences</span>
+        </div>
+      </div>
+
+      <div class="cv-award">
+        <i class="fa-solid fa-file-lines"></i>
+        <div>
+          <strong>Outstanding Undergraduate Thesis</strong>
+          <span>Lanzhou University</span>
+        </div>
+      </div>
+
+      <div class="cv-award">
+        <i class="fa-solid fa-graduation-cap"></i>
+        <div>
+          <strong>Outstanding Graduate</strong>
+          <span>Lanzhou University</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</div>
