@@ -42,10 +42,6 @@ latest_posts:
     COMPUTER VISION · TRUSTWORTHY AI · MACHINE LEARNING
   </div>
 
-  <h1>
-    Building reliable, balanced, and trustworthy visual intelligence.
-  </h1>
-
   <p>
     I am <strong>Yibo Zhou</strong>, a researcher working on
     <strong>Computer Vision</strong> and
@@ -92,43 +88,6 @@ latest_posts:
     <i class="fa-solid fa-file-lines"></i>
     Curriculum Vitae
   </a>
-</div>
-
-## 🔬 Research Interests
-
-<div class="yibo-grid">
-  <div class="yibo-card">
-    <h3>🛡️ Trustworthy Machine Learning</h3>
-    <p>
-      Out-of-distribution detection, robustness under distribution shifts,
-      and the theoretical and empirical analysis of spurious correlations.
-    </p>
-  </div>
-
-  <div class="yibo-card">
-    <h3>🚶 Pedestrian Attribute Recognition</h3>
-    <p>
-      Multi-label visual recognition, attribute disentanglement,
-      label dependency modeling, and co-occurrence bias mitigation.
-    </p>
-  </div>
-
-  <div class="yibo-card">
-    <h3>⚖️ Balanced Representation Learning</h3>
-    <p>
-      Label-balanced learning, heterogeneous feature re-sampling,
-      and robust visual representations for long-tailed and imbalanced data.
-    </p>
-  </div>
-</div>
-
-<div class="yibo-chips">
-  <span class="yibo-chip">Computer Vision</span>
-  <span class="yibo-chip">Trustworthy AI</span>
-  <span class="yibo-chip">Multi-label Learning</span>
-  <span class="yibo-chip">Balanced Learning</span>
-  <span class="yibo-chip">OOD Detection</span>
-  <span class="yibo-chip">Spurious Correlation</span>
 </div>
 
 ## 👋 About Me
