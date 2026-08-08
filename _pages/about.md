@@ -50,7 +50,7 @@ latest_posts:
     <strong>Beihang University</strong> in June 2026. My research focuses on
     developing reliable machine learning systems that can learn from imbalanced
     data, mitigate spurious correlations, and generalize robustly under
-    distribution shifts.
+    distribution shifts. My research has appeared in leading computer vision and machine learning venues, including IEEE TPAMI, IJCV, ICML, IJCAI, and CVPR.
   </p>
 </div>
 
