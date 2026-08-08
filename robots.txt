@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://SDret.github.io/sitemap.xml
+Sitemap: https://sdret.github.io/sitemap.xml
