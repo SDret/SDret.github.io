@@ -5,15 +5,17 @@ permalink: /
 nav: true
 nav_order: 1
 subtitle: >
-  Ph.D. Candidate in Artificial Intelligence at
+  Ph.D. in Artificial Intelligence from
   <a href="https://www.buaa.edu.cn/" target="_blank" rel="noopener noreferrer">Beihang University</a>
-  · Beijing, China
+  · Computer Vision & Trustworthy Machine Learning
 
 profile:
   align: right
   image: profile.jpg
   image_circular: true
   more_info: >
+    <p><i class="fa-solid fa-graduation-cap"></i> Ph.D. in Artificial Intelligence</p>
+    <p><i class="fa-solid fa-building-columns"></i> Beihang University, 2026</p>
     <p><i class="fa-solid fa-location-dot"></i> Beijing, China</p>
     <p>
       <a href="mailto:ybzhou@buaa.edu.cn">
@@ -45,11 +47,14 @@ latest_posts:
   </h1>
 
   <p>
-    I am <strong>Yibo Zhou</strong>, a Ph.D. candidate in
-    <strong>Artificial Intelligence</strong> at
-    <strong>Beihang University</strong>. My research focuses on developing
-    reliable machine learning systems that can learn from imbalanced data,
-    mitigate spurious correlations, and generalize robustly under distribution shifts.
+    I am <strong>Yibo Zhou</strong>, a researcher working on
+    <strong>Computer Vision</strong> and
+    <strong>Trustworthy Machine Learning</strong>. I received my
+    <strong>Ph.D. in Artificial Intelligence</strong> from
+    <strong>Beihang University</strong> in June 2026. My research focuses on
+    developing reliable machine learning systems that can learn from imbalanced
+    data, mitigate spurious correlations, and generalize robustly under
+    distribution shifts.
   </p>
 </div>
 
@@ -128,12 +133,13 @@ latest_posts:
 
 ## 👋 About Me
 
-I am currently pursuing a **Ph.D. in Artificial Intelligence** at the
-**School of Computer Science and Engineering, Beihang University**.
-My research aims to understand and improve the reliability of modern
-machine learning systems, with a particular focus on **computer vision**,
-**imbalanced multi-label learning**, **spurious correlation removal**,
-and **out-of-distribution detection**.
+I received my **Ph.D. in Artificial Intelligence** from the
+**School of Computer Science and Engineering, Beihang University**
+in **June 2026**. My doctoral research focused on understanding and
+improving the reliability of modern machine learning systems, with
+particular emphasis on **computer vision**, **imbalanced multi-label
+learning**, **spurious correlation removal**, and
+**out-of-distribution detection**.
 
 Before beginning my doctoral studies, I worked as an
 **Artificial Intelligence Algorithm Engineer** at
@@ -156,7 +162,7 @@ venues, including **IEEE TPAMI**, **IJCV**, **ICML**, **IJCAI**, and **CVPR**.
     <h3>Beihang University</h3>
     <p><strong>Ph.D. in Artificial Intelligence</strong></p>
     <p>September 2022 – June 2026</p>
-    <p>Beijing, China</p>
+    <p>Degree awarded in June 2026 · Beijing, China</p>
   </div>
 
   <div class="yibo-card">
