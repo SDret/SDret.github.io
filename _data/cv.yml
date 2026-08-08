@@ -4,7 +4,7 @@
     - name: Full Name
       value: Yibo Zhou
     - name: Current Position
-      value: Ph.D. Candidate in Artificial Intelligence
+      value: Ph.D. in Artificial Intelligence
     - name: Affiliation
       value: School of Computer Science and Engineering, Beihang University
     - name: Location
@@ -32,12 +32,12 @@
 - title: Education
   type: time_table
   contents:
-    - title: Ph.D. in Artificial Intelligence
+  - title: Ph.D. in Artificial Intelligence
       institution: Beihang University, Beijing, China
       year: Sep 2022 - Jun 2026
       description:
         - School of Computer Science and Engineering
-        - Expected graduation in June 2026
+        - Ph.D. degree awarded in June 2026
         - National Scholarship, ranked 1st among 100 students
         - Outstanding Freshman Scholarship, top 9 among 105 students
         - First-Class University Scholarship, top 20 among 100 students
