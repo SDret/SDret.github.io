@@ -1,12 +1,12 @@
 metadata:
-  last_updated: '2026-08-17'
+  last_updated: '2026-09-07'
 papers:
   Ch18_eIAAAAJ:2osOgNQ5qMEC:
     citations: 8
     title: Heterogeneous feature re-sampling for balanced pedestrian attribute recognition
     year: '2025'
   Ch18_eIAAAAJ:9yKSN-GCB0IC:
-    citations: 158
+    citations: 159
     title: Rethinking reconstruction autoencoder-based out-of-distribution detection
     year: '2022'
   Ch18_eIAAAAJ:IjCSPb-OGe4C:
